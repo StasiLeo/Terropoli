@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 2049398228744978105}
   - component: {fileID: 6680412575312438478}
   - component: {fileID: 196764561136662551}
+  - component: {fileID: -410117615138429112}
   m_Layer: 0
   m_Name: macchina modificata
   m_TagString: Untagged
@@ -523,6 +524,19 @@ MonoBehaviour:
   frontRightWheelTransform: {fileID: 400004}
   rearLeftWheelTransform: {fileID: 400002}
   rearRightWheelTransform: {fileID: 400000}
+--- !u!114 &-410117615138429112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704e9a259dcd8934895439b2551a8e17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &4392031848000587574
 GameObject:
   m_ObjectHideFlags: 0
